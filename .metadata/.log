@@ -81,3 +81,12 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-09-28 02:20:16.765
+!MESSAGE Failed to load properties file for project 'PHIA'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-09-28 02:20:16.770
+!MESSAGE Failed to load properties file for project 'PHIA'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-09-28 02:20:16.801
+!MESSAGE Failed to load properties file for project 'PHIA'
