@@ -24,5 +24,13 @@ public class Getinfo extends Activity {
         Intent intent = new Intent(this, FullscreenActivity.class);
         startActivity(intent);
 	}
+	public void outbreak(View view) {
+        Intent intent = new Intent(this, Outbreaks.class);
+        startActivity(intent);
+	}
+	public void contact(View view) {
+        Intent intent = new Intent(this, Contacts.class);
+        startActivity(intent);
+	}
 
 }

@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="18" />
 
     <application
@@ -27,6 +27,26 @@
         <activity
             android:name="phia.beta1.Getinfo"
             android:label="@string/title_activity_getinfo" >
+        </activity>
+        <activity
+            android:name="phia.beta1.NumbersListActivity"
+            android:label="@string/title_numbers_list" >
+        </activity>
+        <activity
+            android:name="phia.beta1.NumbersDetailActivity"
+            android:label="@string/title_numbers_detail"
+            android:parentActivityName=".NumbersListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NumbersListActivity" />
+        </activity>
+        <activity
+            android:name="phia.beta1.Outbreaks"
+            android:label="@string/title_activity_outbreaks" >
+        </activity>
+        <activity
+            android:name="phia.beta1.Contacts"
+            android:label="@string/title_activity_contacts" >
         </activity>
     </application>
 

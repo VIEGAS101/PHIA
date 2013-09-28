@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="phia.beta1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="phia.beta1.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="phia.beta1.Getinfo"
+            android:label="@string/title_activity_getinfo" >
+        </activity>
+        <activity
+            android:name="phia.beta1.NumbersListActivity"
+            android:label="@string/title_numbers_list" >
+        </activity>
+        <activity
+            android:name="phia.beta1.NumbersDetailActivity"
+            android:label="@string/title_numbers_detail"
+            android:parentActivityName=".NumbersListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NumbersListActivity" />
+        </activity>
+        <activity
+            android:name="phia.beta1.Outbreaks"
+            android:label="@string/title_activity_outbreaks" >
+        </activity>
+    </application>
+
+</manifest>

@@ -21,7 +21,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="@string/out_breaks" />
+            android:text="@string/out_breaks" 
+            android:onClick="outbreak"/>
 
         <Button
             android:id="@+id/button2"
@@ -29,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginTop="@dimen/top"
-            android:text="@string/project_myself" />
+            android:text="@string/contact_s" 
+            android:onClick="contact"/>
 
     </FrameLayout>
 
