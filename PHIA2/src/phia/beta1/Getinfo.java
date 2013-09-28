@@ -27,6 +27,7 @@ public class Getinfo extends Activity {
 	public void outbreak(View view) {
         Intent intent = new Intent(this, Outbreaks.class);
         startActivity(intent);
+        
 	}
 	public void contact(View view) {
         Intent intent = new Intent(this, Contacts.class);

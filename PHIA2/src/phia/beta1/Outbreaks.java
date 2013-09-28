@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
+
 public class Outbreaks extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_outbreaks);
+		
 	}
 
 	@Override
@@ -24,5 +26,6 @@ public class Outbreaks extends Activity {
         Intent intent = new Intent(this, FullscreenActivity.class);
         startActivity(intent);
 	}
-
+	
+	
 }

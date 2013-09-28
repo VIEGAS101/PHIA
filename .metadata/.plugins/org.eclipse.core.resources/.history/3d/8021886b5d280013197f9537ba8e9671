@@ -1,0 +1,56 @@
+package phia.beta1;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Intent;
+import android.view.Menu;
+import android.view.View;
+import java.sql.*;
+
+public class Outbreaks extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_outbreaks);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.outbreaks, menu);
+		return true;
+	}
+	public void home(View view) {
+        Intent intent = new Intent(this, FullscreenActivity.class);
+        startActivity(intent);
+	}
+	
+	public void init() throws IllegalAccessException, InstantiationException,
+    ClassNotFoundException, SQLException {
+
+Class.forName("com.mysql.jdbc.Driver").newInstance();
+Connection conn;
+try {
+    conn = DriverManager.getConnection("jdbc:sqlserver:hackathon.cemvdohbyrgo.us-west-2.rds.amazonaws.com:3306;databaseName=outbreak;user=ushahidi;password=hackforchange");
+} catch (java.sql.SQLException e1) {
+    e1.printStackTrace();
+}
+try {
+
+    stmt = conn.createStatement();
+    ResultSet rs = stmt.executeQuery("SELECT title FROM books");
+    String entry;
+    while (rs.next()){
+        entry = rs.getString(1);
+    }
+    rs.close();
+    stmt.close();
+    conn.close();
+} catch (java.sql.SQLException e) {
+    e.printStackTrace();
+}
+
+}
+
+}

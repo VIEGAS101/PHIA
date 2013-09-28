@@ -26,7 +26,7 @@
         android:layout_alignRight="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="16dp"
-        android:text="@string/out_report"
+        android:text="@string/one"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#E6E6E6" />
 
@@ -40,5 +40,25 @@
         android:text="@string/home"
         android:textColor="#FFFFFF"
         android:onClick="home" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="@string/two"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E6E6E6" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/TextView02"
+        android:text="@string/three"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E6E6E6" />
 
 </RelativeLayout>

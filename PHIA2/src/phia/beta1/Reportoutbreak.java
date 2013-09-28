@@ -5,9 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 
 public class Reportoutbreak extends Activity {
-
+	public final static String EXTRA_MESSAGE = "phia.beta1.MESSAGE";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -26,7 +27,12 @@ public class Reportoutbreak extends Activity {
 	}
 	public void outbreak(View view) {
         Intent intent = new Intent(this, Outbreaks.class);
+        EditText editText = (EditText) findViewById(R.id.editText2);
+        EditText editText1 = (EditText) findViewById(R.id.editText3);
+        String message = editText.getText().toString()+editText1.getText().toString();
+        intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
 	}
+	
 
 }

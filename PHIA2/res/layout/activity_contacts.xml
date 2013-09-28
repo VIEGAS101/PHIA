@@ -19,17 +19,6 @@
         android:textSize="30sp"
         android:color="#00FF00" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
-        android:text="@string/contact_list"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#E6E6E6" />
-
     <Button
         android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
@@ -40,5 +29,26 @@
         android:text="@string/home"
         android:textColor="#FFFFFF"
         android:onClick="home" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="57dp"
+        android:text="@string/ddds"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E6E6E6" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="@string/been"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E6E6E6" />
 
 </RelativeLayout>

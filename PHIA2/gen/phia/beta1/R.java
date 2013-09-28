@@ -41,20 +41,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int TextView01=0x7f0a0000;
-        public static final int action_settings=0x7f0a000e;
-        public static final int button1=0x7f0a0002;
-        public static final int button2=0x7f0a0008;
-        public static final int button3=0x7f0a0007;
-        public static final int dummy_button=0x7f0a0005;
-        public static final int editText1=0x7f0a0009;
-        public static final int editText2=0x7f0a000b;
-        public static final int editText3=0x7f0a000d;
-        public static final int fullscreen_content=0x7f0a0003;
-        public static final int fullscreen_content_controls=0x7f0a0004;
-        public static final int imageView1=0x7f0a0006;
-        public static final int textView1=0x7f0a0001;
-        public static final int textView2=0x7f0a000a;
-        public static final int textView3=0x7f0a000c;
+        public static final int TextView02=0x7f0a0003;
+        public static final int TextView3=0x7f0a000a;
+        public static final int action_settings=0x7f0a0010;
+        public static final int button1=0x7f0a0001;
+        public static final int button2=0x7f0a0009;
+        public static final int button3=0x7f0a0008;
+        public static final int dummy_button=0x7f0a0006;
+        public static final int editText1=0x7f0a000b;
+        public static final int editText2=0x7f0a000d;
+        public static final int editText3=0x7f0a000f;
+        public static final int fullscreen_content=0x7f0a0004;
+        public static final int fullscreen_content_controls=0x7f0a0005;
+        public static final int imageView1=0x7f0a0007;
+        public static final int textView1=0x7f0a0002;
+        public static final int textView2=0x7f0a000c;
+        public static final int textView3=0x7f0a000e;
     }
     public static final class layout {
         public static final int activity_contacts=0x7f030000;
@@ -73,12 +75,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int action_settings=0x7f07000a;
         public static final int app_name=0x7f070000;
+        public static final int attemp=0x7f070020;
+        public static final int been=0x7f070021;
         public static final int cond_ition=0x7f07001d;
         public static final int contact_list=0x7f070013;
         public static final int contact_s=0x7f070012;
         public static final int date_=0x7f070016;
         public static final int date_d=0x7f070015;
         public static final int date_t=0x7f07001a;
+        public static final int ddds=0x7f070022;
         public static final int dummy_butto=0x7f070003;
         public static final int dummy_button=0x7f070001;
         public static final int dummy_content=0x7f070002;
@@ -90,18 +95,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int home=0x7f070008;
         public static final int large_strin=0x7f070017;
         public static final int locate=0x7f07001b;
+        public static final int one=0x7f070023;
         public static final int out_breaks=0x7f070006;
         public static final int out_report=0x7f07000f;
         public static final int project_myself=0x7f070007;
         public static final int report_out=0x7f070010;
         public static final int report_outbreak=0x7f070004;
         public static final int submit=0x7f07001f;
+        public static final int three=0x7f070025;
         public static final int title_activity_contacts=0x7f070011;
         public static final int title_activity_getinfo=0x7f070009;
         public static final int title_activity_outbreaks=0x7f07000e;
         public static final int title_activity_reportoutbreak=0x7f070014;
         public static final int title_numbers_detail=0x7f07000d;
         public static final int title_numbers_list=0x7f07000c;
+        public static final int two=0x7f070024;
         public static final int type_name=0x7f070019;
     }
     public static final class style {
