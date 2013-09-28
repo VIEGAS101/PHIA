@@ -49,17 +49,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/report_outbreak" />
-
-            <Button
-                android:id="@+id/button1"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
-                android:layout_weight="1"
-                android:text="@string/get_info" />
-             
+                android:text="@string/dummy_button" />
         </LinearLayout>
 
         <ImageView

@@ -6,8 +6,5 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="dummy_butto">Button</string>
     <string name="report_outbreak">Report Outbreak</string>
-    <string name="get_info">Get Info</string>
-    <string name="out_breaks">Outbreaks</string>
-    <string name="project_myself">Protect Myself</string>
 
 </resources>
