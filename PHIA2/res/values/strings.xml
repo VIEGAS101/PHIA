@@ -22,5 +22,16 @@
     <string name="contact_s">Contacts</string>
     <string name="contact_list">contactlist</string>
     <string name="title_activity_reportoutbreak">Reportoutbreak</string>
+    <string name="date_d">date</string>
+    <string name="date_">DATE:</string>
+    <string name="large_strin">Largestrun</string>
+    <string name="fill_in">fill in</string>
+    <string name="type_name">Type in your name</string>
+    <string name="date_t">DATE:</string>
+    <string name="locate">LOCATION:</string>
+    <string name="fill_location">fill in location</string>
+    <string name="cond_ition">CONDITION:</string>
+    <string name="fill_condition">fill in condition</string>
+    <string name="submit">SUBMIT</string>
 
 </resources>

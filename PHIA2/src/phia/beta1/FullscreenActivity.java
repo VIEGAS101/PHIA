@@ -160,4 +160,8 @@ public class FullscreenActivity extends Activity {
         Intent intent = new Intent(this, Getinfo.class);
         startActivity(intent);
     }
+    public void report(View view) {
+        Intent intent = new Intent(this, Reportoutbreak.class);
+        startActivity(intent);
+    }
 }

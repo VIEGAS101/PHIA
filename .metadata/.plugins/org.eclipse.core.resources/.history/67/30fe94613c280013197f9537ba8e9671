@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PHIA2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_butto">Button</string>
+    <string name="report_outbreak">Report Outbreak</string>
+    <string name="get_info">Get Info</string>
+    <string name="out_breaks">Outbreaks</string>
+    <string name="project_myself">Protect Myself</string>
+    <string name="home">Home</string>
+    <string name="title_activity_getinfo">Getinfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_numbers_list">Outbreaks</string>
+    <string name="title_numbers_detail">Numbers Detail</string>
+    <string name="title_activity_outbreaks">Outbreaks</string>
+    <string name="out_report">Outbreaks reports</string>
+    <string name="report_out">Reported Outbreaks</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="contact_s">Contacts</string>
+    <string name="contact_list">contactlist</string>
+    <string name="title_activity_reportoutbreak">Reportoutbreak</string>
+    <string name="date_d">date</string>
+    <string name="date_">DATE:</string>
+    <string name="large_strin">Largestrun</string>
+    <string name="fill_in">fill in</string>
+    <string name="type_name">Type in your name</string>
+    <string name="date_t">DATE:</string>
+    <string name="locate">LOCATION:</string>
+
+</resources>
