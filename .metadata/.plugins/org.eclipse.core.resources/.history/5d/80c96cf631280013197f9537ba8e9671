@@ -48,10 +48,6 @@
             android:name="phia.beta1.Contacts"
             android:label="@string/title_activity_contacts" >
         </activity>
-        <activity
-            android:name="phia.beta1.Reportoutbreak"
-            android:label="@string/title_activity_reportoutbreak" >
-        </activity>
     </application>
 
 </manifest>

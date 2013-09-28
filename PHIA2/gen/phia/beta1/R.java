@@ -56,12 +56,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_fullscreen=0x7f030001;
         public static final int activity_getinfo=0x7f030002;
         public static final int activity_outbreaks=0x7f030003;
-        public static final int info=0x7f030004;
+        public static final int activity_reportoutbreak=0x7f030004;
+        public static final int info=0x7f030005;
     }
     public static final class menu {
         public static final int contacts=0x7f090000;
         public static final int getinfo=0x7f090001;
         public static final int outbreaks=0x7f090002;
+        public static final int reportoutbreak=0x7f090003;
     }
     public static final class string {
         public static final int action_settings=0x7f07000a;
@@ -82,6 +84,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_activity_contacts=0x7f070011;
         public static final int title_activity_getinfo=0x7f070009;
         public static final int title_activity_outbreaks=0x7f07000e;
+        public static final int title_activity_reportoutbreak=0x7f070014;
         public static final int title_numbers_detail=0x7f07000d;
         public static final int title_numbers_list=0x7f07000c;
     }
