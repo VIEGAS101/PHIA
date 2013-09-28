@@ -9,5 +9,9 @@
     <string name="get_info">Get Info</string>
     <string name="out_breaks">Outbreaks</string>
     <string name="project_myself">Protect Myself</string>
+    <string name="home">Home</string>
+    <string name="title_activity_getinfo">Getinfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

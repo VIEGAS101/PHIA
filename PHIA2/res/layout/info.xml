@@ -4,10 +4,31 @@
     android:layout_height="match_parent"
     android:layout_gravity="bottom" >
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home" />
+
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@drawable/backdrop" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/out_breaks" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/project_myself" />
 
     </FrameLayout>
 

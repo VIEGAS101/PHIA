@@ -58,7 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|center"
                 android:layout_weight="1"
-                android:text="@string/get_info" />
+                android:text="@string/get_info" 
+                android:onClick="getinfo"/>
              
         </LinearLayout>
 
